@@ -7,7 +7,7 @@ This guide should work on all Linux distributions but has its focus on Arch-base
 ## Prerequisites
 To be able to follow each and every step as instructed in this guide, you need to have some programs and toolchains already installed. This includes:
 * a working C compiler toolchain such as `clang` or `gcc`
-* a package manager such as `apt`, `pacman`, `rpm` or similar (in the following guide we will use `pacman` and `apt`, but using other managers should work equally well with some tweaks ans changes)
+* a package manager such as `apt`, `pacman`, `rpm` or similar (in the following guide we will use `pacman` and `apt`, but using other managers should work equally well with some tweaks and changes)
 * `wget`
 
 Create a new folder to save all downloads by running
