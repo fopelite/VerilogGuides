@@ -15,7 +15,7 @@ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 ```
 
-## Installing SystemVerilog
+## Installing SystemVerilog toolchain
 
 Now you can install the required packages for SystemVerilog.
 

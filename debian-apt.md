@@ -2,7 +2,7 @@
 
 In this guide we'll show you how to install all necessary tools for synthesizing or simulating your SystemVerilog projects.
 
-## Installing SystemVerilog
+## Installing SystemVerilog toolchain
 
 This guide has been tested on *Ubuntu 20.04*, but should work for all Debian-based systems like Ubuntu or Linux Mint.
 

@@ -2,7 +2,7 @@
 
 In this guide we'll show you how to install all necessary tools for synthesizing or simulating your SystemVerilog projects.
 
-## Installing SystemVerilog
+## Installing SystemVerilog toolchain
 
 This guide has been tested on *Manjaro XFCE 20.1.2*, but should work for all Arch-based systems.
 

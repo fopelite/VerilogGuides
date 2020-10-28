@@ -5,7 +5,7 @@ In this guide we'll show you, how to install all necessary tools for synthesizin
 If you want to use a faster method of installing all tools and keeping them up-to-date automatically, 
 check out the [installation using scoop](windows-scoop.md).
 
-## Installing SystemVerilog
+## Installing SystemVerilog toolchain
 
 ### Synthesis tools
 Download the latest release of the GraphViz installer from 
