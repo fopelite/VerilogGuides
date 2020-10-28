@@ -24,7 +24,6 @@ To install all dependencies, run:
 `sudo pacman -S base-devel cairo expat freetype2 fontconfig glib2 libpng pango zlib gts gtk3 gtkglext glade glut autoconf ghostscript pkg-config swig`
 
 **Note that on apt-based systems, some packages have other names. Thus, run:**
-
 `sudo apt-get install build-essential libcairo2-dev expat libfreetype-dev fontconfig libglib2.0-dev libpng-dev libpango-1.0-0 libpango1.0-dev zlib1g-dev libgts-dev libgtk-3-dev libgtkglext1 libgtkglext1-dev freeglut3-dev autoconf ghostscript pkg-config swig libperl-dev`
 
 Download the GraphViz source package by entering
