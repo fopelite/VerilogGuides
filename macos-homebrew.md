@@ -3,7 +3,7 @@
 In this guide we'll show you how to install all necessary tools for synthesizing or simulating your SystemVerilog projects.
 
 ## Installing Homebrew
-Homebrew is a package manager for macOS and will be used to install the majority of tools used.
+[Homebrew](https://brew.sh/index_de) is a package manager for macOS and will be used to install the majority of tools used.
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
@@ -22,7 +22,7 @@ brew install yosys graphviz icarus-verilog gnu-sed dos2unix
 
 ### GTKWave
 #### Method 1: Using Homebrew
-*This, whyever, doesn't work all the time, which is why we created a second method to installing GTKWave below*.
+*This, whyever, doesn't work all the time, which is why we created a second method for installing GTKWave below*.
 
 ```sh
 brew cask install xquartz
@@ -31,8 +31,7 @@ brew cask install gtkwave
 
 
 #### Method 2: Manually
-First, download the GTKWave app:
-https://netcologne.dl.sourceforge.net/project/gtkwave/gtkwave-3.3.107-osx-app/gtkwave.zip
+First, [download the GTKWave app](https://netcologne.dl.sourceforge.net/project/gtkwave/gtkwave-3.3.107-osx-app/gtkwave.zip).
 
 After you've done that, unpack the zip-archive. An application called "gtkwave" should appear. Right-click on it and click "Open", then confirm your choice by clicking "Open" on the dialog that just popped up.
 
