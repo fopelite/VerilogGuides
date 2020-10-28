@@ -1,4 +1,4 @@
-# Installing SystemVerilog on Ubuntu using apt
+# Installing SystemVerilog on Debian-based systems using apt
 
 In this guide we'll show you, how to install all necessary tools for synthesing or simulating your SystemVerilog projects.
 
