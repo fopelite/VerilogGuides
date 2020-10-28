@@ -1,5 +1,5 @@
 # VerilogGuides
-Guides which show how to install the SystemVerilog toolchain on different operation systems.
+Guides on how to install a SystemVerilog toolchain on different operation systems.
 
 | Operating System | Used                           | Tested On        |
 | ---------------- | ------------------------------ | ---------------- |
@@ -7,7 +7,7 @@ Guides which show how to install the SystemVerilog toolchain on different operat
 | Windows          | [manual](windows-manual.md)    | Windows 10 1904  |
 | Debian-based     | [apt](debian-apt.md)           | Ubuntu 20.04 LTS |
 | Arch-based       | [pacman](arch-pacman.md)       | Manjaro XFCE     |
-| Linux            | [from source](linux-source.md) | ↗ ↗              |
+| Linux            | [from source](linux-source.md) | Ubuntu & Manjaro |
 | macOS            | [homebew](macos-homebrew.md)   | macOS 10.15.7    |
 
 ## Contributing
