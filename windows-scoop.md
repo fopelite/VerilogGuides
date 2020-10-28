@@ -1,6 +1,6 @@
 # Installing SystemVerilog on Windows using scoop
 
-In this guide we'll show you, how to install all necessary tools for synthesing or simulating your SystemVerilog projects.
+In this guide we'll show you, how to install all necessary tools for synthesizing or simulating your SystemVerilog projects.
 
 If you don't want to install scoop, check out our [manual guide](windows-manual.md).
 
@@ -25,11 +25,14 @@ scoop install graphviz sed iverilog
 
 *sccop adds all installed packages automatically to the PATH.*
 
-Sadly there's no package for *yosys*. You have to download the file [`yosys-win32-mxebin-0.9.zip`](http://www.clifford.at/yosys/nogit/win32/yosys-win32-mxebin-0.9.zip), extract it somewhere and the new folder to your  PATH.
+Sadly there's no package for *yosys*. 
+You have to download the file [`yosys-win32-mxebin-0.9.zip`](http://www.clifford.at/yosys/nogit/win32/yosys-win32-mxebin-0.9.zip), 
+extract it somewhere and the new folder to your PATH.
 
 After everything is installed, run `dot -c` once to configure all plugins for graphviz. 
 
-*This step may be optional in the future when a version including the pull request [1581](https://gitlab.com/graphviz/graphviz/-/merge_requests/1581) has been released.*
+*This step may be optional in the future when a version including the pull request 
+[1581](https://gitlab.com/graphviz/graphviz/-/merge_requests/1581) has been released.*
 
 ## Testing your installation
 
@@ -43,7 +46,8 @@ Then open the folder `SystemVerilog\src\comb` in PowerShell and run the followin
 ..\..\bin\sim.bat example_tb example.sv example_tb.sv
 ```
 
-Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis and an application called GTKWave should open up, which displays measurements of the simulation.
+Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis, 
+and an application called GTKWave should open up, which displays measurements of the simulation.
 
 ## Updates
 This step is *optional*.
@@ -75,7 +79,8 @@ This step is *optional*.
 Visual Studio Code is a lightweight code editor from Microsoft with lots of extensions.
 
 You can download the software [here](https://code.visualstudio.com/) and once you installed it,
-there's an extension for SystemVerilog called [`Verilog-HDL/SystemVerilog/Bluespec SystemVerilog`](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL). 
-Open the sitebar, search for it and install it.
+there's an extension for SystemVerilog called 
+[`Verilog-HDL/SystemVerilog/Bluespec SystemVerilog`](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL). 
+Open the sidebar, search for it and install it.
 
 Now you can easily edit highlighted `.sv` files.

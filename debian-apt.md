@@ -1,12 +1,12 @@
 # Installing SystemVerilog on Debian-based systems using apt
 
-In this guide we'll show you, how to install all necessary tools for synthesing or simulating your SystemVerilog projects.
+In this guide we'll show you how to install all necessary tools for synthesizing or simulating your SystemVerilog projects.
 
 ## Installing SystemVerilog
 
-This guide was tested on *Ubuntu 20.04*, but should work for all Debian-based systems like Ubuntu or Linux Mint.
+This guide has been tested on *Ubuntu 20.04*, but should work for all Debian-based systems like Ubuntu or Linux Mint.
 
-If you're using an older verion of Ubuntu, you may get older version of those programms.
+If you're using an older version of Ubuntu, you may get older version of those programms.
 
 ### Synthesis & simulation tools
 Just run the following commands in a terminal.
@@ -37,6 +37,7 @@ Go to the folder `SystemVerilog\src\comb` and run
 ../../bin/sim.sh example_tb example.sv example_tb.sv
 ```
 
-Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis and an application called GTKWave should open up, which displays measurements of the simulation.
+Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis, 
+and an application called GTKWave should open up, which displays measurements of the simulation.
 
-Congratulations all nessesarry tools for SystemVerilog are working properly.
+Congratulations all necessary tools for SystemVerilog are working properly.
