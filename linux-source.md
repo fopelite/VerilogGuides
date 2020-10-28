@@ -164,7 +164,7 @@ chmod +x sim.sh synth.sh
 ```
 
 ### Actual testing
-Go to the folder `SystemVerilog\src\comb` and run
+Go to the folder `SystemVerilog/src/comb` and run
 ```sh
 # Testing the synthesis
 ../../bin/synth.sh example example.sv
