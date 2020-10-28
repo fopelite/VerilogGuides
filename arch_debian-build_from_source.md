@@ -104,6 +104,7 @@ Lastly, test your installation by running `gtkwave --version`
 If you're here, you made it. You successfully built all tools you need from source and installed them.
 Now, if you want to free some space on your disk, simply run:
 `cd ../.. && rm -rf system_verilog_tools`
+
 This deletes all the downloaded source files as we technically don't need them any longer. However, if you want to keep the files, you're of course free to do so.
 
 ## Testing the installation
