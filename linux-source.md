@@ -1,7 +1,7 @@
 # Building SystemVerilog tools from source on Linux
 
 ## Abstract
-We will build all the tools we need from source, which ensures that we will always have the most up-to-date versions installed and thus reduce the risk of running into problems because of conflicting versions or similar while using these tools to the absolute minimum.
+We will build all the tools we need from source, which ensures that we will always have the most up-to-date versions installed and thus reduces the risk of running into problems because of conflicting versions or similar while using these tools.
 This guide should work on all Linux distributions but has its focus on Arch-based (Arch, Manjaro, ...) and Debian-based (Debian, Ubuntu, Mint, ...) operating systems.
 
 ## Prerequisites
