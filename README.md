@@ -1,5 +1,5 @@
 # VerilogGuides
-Guides on how to install a SystemVerilog toolchain on different operation systems.
+Guides on how to install a SystemVerilog toolchain on different operating systems.
 
 | Operating System | Used                           | Tested On        |
 | ---------------- | ------------------------------ | ---------------- |
