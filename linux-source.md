@@ -44,7 +44,7 @@ Now configure, compile and uninstall GraphViz by running the follwing commands i
 2. `make -j$(nproc)`
     * *if you run into an error here just try to run* `make` *without any arguments, as these do the following:*
         * `-j` essentially lets you define the number of cores to run the compilation on (parallelized)
-        * nproc outputs the number of usable cores on your processor
+        * `nproc` outputs the number of usable cores on your processor
 4. `sudo make install`
 
 ### Testing
@@ -99,7 +99,7 @@ Unpack the downloaded source and navigate to the newly created directory:
 ### Configuration, compilation and installation
 Now, create your `configure` file by running `sh autoconf.sh`. After that, enter the following commands once again to configure, compile and install:
 1. `./configure`
-2. `make -j$(nproc)` - *if you run into an error here just try to run make without any arguments*
+2. `make -j$(nproc)` - *if you run into an error here just try to run* `make` *without any arguments*
 3. `sudo make install`
 
 ### Testing
@@ -126,7 +126,7 @@ Unpack the source and navigate to the newly created directory:
 ### Configuration, compilation and installation:
 Configure, compile and install:
 1. `./configure`
-2. `make -j$(nproc)` - *if you run into an error here just try to run make without any arguments*
+2. `make -j$(nproc)` - *if you run into an error here just try to run* `make` *without any arguments*
 3. `sudo make install`
 
 ### Testing
