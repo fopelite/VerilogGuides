@@ -34,6 +34,8 @@ After everything is installed, run `dot -c` once to configure all plugins for gr
 *This step may be optional in the future when a version including the pull request 
 [1581](https://gitlab.com/graphviz/graphviz/-/merge_requests/1581) has been released.*
 
+You completed the installation of SystemVerilog. Now you can test it.
+
 ## Testing your installation
 
 Download and extract the .zip file from our Moodle course.
@@ -48,6 +50,8 @@ Then open the folder `SystemVerilog\src\comb` in PowerShell and run the followin
 
 Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis, 
 and an application called GTKWave should open up, which displays measurements of the simulation.
+
+Congratulations! All necessary tools for SystemVerilog are working properly.
 
 ## Updates
 This step is *optional*.

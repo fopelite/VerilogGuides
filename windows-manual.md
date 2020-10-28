@@ -48,4 +48,4 @@ Then open the folder `SystemVerilog\src\comb` in PowerShell and run the followin
 Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis, 
 and an application called GTKWave should open up, which displays measurements of the simulation.
 
-Congratulations all necessary tools for SystemVerilog are working properly.
+Congratulations! All necessary tools for SystemVerilog are working properly.
