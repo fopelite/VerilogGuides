@@ -1,4 +1,8 @@
-# Installing SystemVerilog using scoop
+# Installing SystemVerilog on Windows using scoop
+
+In this guide we'll show you, how to install all necessary tools for synthesing or simulating your SystemVerilog projects.
+
+If you don't want to install scoop, check out our [manual guide](windows-manual.md).
 
 ## Installing scoop
 
