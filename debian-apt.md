@@ -4,7 +4,8 @@ In this guide we'll show you, how to install all necessary tools for synthesing 
 
 ## Installing SystemVerilog
 
-This guide was tested on *Ubuntu 20.04*.
+This guide was tested on *Ubuntu 20.04*, but should work for all Debian-based systems like Ubuntu or Linux Mint.
+
 If you're using an older verion of Ubuntu, you may get older version of those programms.
 
 ### Synthesis & simulation tools
