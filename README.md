@@ -8,7 +8,7 @@ Guides on how to install a SystemVerilog toolchain on different operating system
 | Debian-based     | [apt](debian-apt.md)           | Ubuntu 20.04 LTS |
 | Arch-based       | [pacman](arch-pacman.md)       | Manjaro XFCE     |
 | Linux            | [from source](linux-source.md) | Ubuntu & Manjaro |
-| macOS            | [homebew](macos-homebrew.md)   | macOS 10.15.7    |
+| macOS            | [homebrew](macos-homebrew.md)   | macOS 10.15.7    |
 
 ## Contributing
 
