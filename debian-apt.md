@@ -29,7 +29,7 @@ You completed the installation of SystemVerilog. Now you can test it.
 
 ## Testing your installation
 
-Go to the folder `SystemVerilog\src\comb` and run
+Go to the folder `SystemVerilog/src/comb` and run
 ```sh
 # Testing the synthesis
 ../../bin/synth.sh example example.sv
