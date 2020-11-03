@@ -20,14 +20,10 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 Now you can install the required packages for SystemVerilog.
 
 ```ps1
-scoop install graphviz sed iverilog
+scoop install graphviz sed iverilog yosys
 ```
 
 *sccop adds all installed packages automatically to the PATH.*
-
-Sadly there's no package for *yosys*. 
-You have to download the file [`yosys-win32-mxebin-0.9.zip`](http://www.clifford.at/yosys/nogit/win32/yosys-win32-mxebin-0.9.zip), 
-extract it somewhere and the new folder to your PATH.
 
 After everything is installed, run `dot -c` once to configure all plugins for graphviz. 
 
