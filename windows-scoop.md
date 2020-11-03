@@ -52,14 +52,14 @@ Congratulations! All necessary tools for SystemVerilog are working properly.
 ## Updates
 This step is *optional*.
 
-If you want to keep your packages installed via scoop up-to-date, 
-you have to download the package git, so you have to run once:
+scoop can automatically update your installed packages. 
+For this process the tool git is used, which you can install with
 
 ```ps1
 scoop install git
 ```
 
-Now you can update all of your packages at once (except `yosys`):
+Now you can update all of your installed packages at once
 ```ps1
 scoop update *
 ```
@@ -68,7 +68,7 @@ I recommend that you run this command occasionally (maybe once a month).
 
 *Further information*
 
-You can find a lot of useful tools in the scoop repository, just search for it.
+You can find a lot of useful tools in the scoop repositories (also called buckets), just search for it.
 ```
 scoop search <package>
 ```
@@ -83,4 +83,4 @@ there's an extension for SystemVerilog called
 [`Verilog-HDL/SystemVerilog/Bluespec SystemVerilog`](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL). 
 Open the sidebar, search for it and install it.
 
-Now you can easily edit highlighted `.sv` files.
+Using the extension you can easily edit highlighted `.sv` files.
