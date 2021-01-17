@@ -1,11 +1,11 @@
 # Maintainer: Jonas Renk <jonas.renk@stud.tu-darmstadt.de>
-pkgname=systemverilog
-pkgver=20210116
+pkgname=sv-toolchain-edu
+pkgver=1
 pkgrel=1
 epoch=
-pkgdesc="Synthese und Simulation"
+pkgdesc="Synthesis and Simulation of SystemVerilog"
 arch=('any')
-url="https://moodle.informatik.tu-darmstadt.de/mod/folder/view.php?id=31324"
+url="https://www.encrypto.cs.tu-darmstadt.de/teaching_theses/digitaltechnik_ws2021/index.en.jsp"
 license=('MIT')
 groups=()
 depends=('yosys'
