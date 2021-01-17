@@ -23,9 +23,8 @@ Either clone or download and unzip this repository.
 You should have received a SystemVerilog zip archive:
 Place the archive in the repository's directory.
 **Don't** unzip it.
-Rather make the name all lowercase,
-remove all spaces and the part in parenthesis.
-E.g. `SystemVerilog (Synthese und Simulation)-20210116.zip` becomes `systemverilog-20210116.zip`.
+Rather rename it to:
+`sv-toolchain-edu-1.zip`
 
 ### Building and installing the package
 Simply open a terminal in repository's directory and run:
@@ -42,8 +41,8 @@ You completed the installation of SystemVerilog. Now you can test it.
 In the same terminal as before run:
 ```sh
 # Copying examples
-cp -r /usr/share/systemverilog/src/* .
-cd comp
+cp -r /usr/share/sv-toolchain-edu/src/* .
+cd comb
 # Testing the synthesis
 sv-synth example example.sv
 # Testing the simulation
