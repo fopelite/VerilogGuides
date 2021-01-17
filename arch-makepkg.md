@@ -7,6 +7,12 @@ In this guide we'll show you how to install all necessary tools for synthesizing
 > a build-capable Unix platform and a [PKGBUILD](https://wiki.archlinux.org/index.php/PKGBUILD). 
 > ([Arch Wiki](https://wiki.archlinux.org/index.php/Makepkg))
 
+To use `makepkg` make sure you have `base-devel` installed
+by running the following in a terminal (as root):
+```sh
+pacman -S base-devel
+```
+
 ## Installing SystemVerilog toolchain
 
 This guide has been tested on *5.10.6-arch1-1 x86_64 GNU/Linux*, but should work for all Arch-based systems.
