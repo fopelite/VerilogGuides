@@ -50,9 +50,7 @@ package() {
 
     mkdir -p $pkgdir/usr/bin/
     for file in $pkgdir/usr/share/$pkgname/bin/*.sh; do
-        echo -e "#!/bin/sh\nexec /usr/share/$pkgname/bin/$(basename $file) \$@" \
-            > $pkgdir/usr/bin/sv-$(basename $file .sh)
+        ln -s /usr/share/$pkgname/bin/$(basename $file) \
+              $pkgdir/usr/bin/sv-$(basename $file .sh)
     done
-
-    chmod +x $pkgdir/usr/bin/sv-*
 }
