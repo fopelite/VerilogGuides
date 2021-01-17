@@ -25,7 +25,7 @@ install=
 changelog=
 source=("$pkgname-$pkgver.zip")
 noextract=("$pkgname-$pkgver.zip")
-md5sums=('3658f7ab86ba995e612178de6920825c')
+md5sums=('SKIP')
 validpgpkeys=()
 
 prepare() {
@@ -33,7 +33,7 @@ prepare() {
     rm -rf SystemVerilog
     unzip "$pkgname-$pkgver.zip" -x '*.exe' '*.bat' '*.mac'
 
-    dos2unix SystemVerilog/bin/*.sh
+    find SystemVerilog -type f -exec dos2unix '{}' \;
     chmod +x SystemVerilog/bin/*.sh
 }
 
