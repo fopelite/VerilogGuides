@@ -31,7 +31,7 @@ validpgpkeys=()
 prepare() {
     cd $srcdir
     rm -rf SystemVerilog
-    unzip "$pkgname-$pkgver.zip"
+    unzip "$pkgname-$pkgver.zip" -x '*.exe' '*.bat' '*.mac'
 
     dos2unix SystemVerilog/bin/*.sh
     chmod +x SystemVerilog/bin/*.sh
