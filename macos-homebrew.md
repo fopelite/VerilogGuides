@@ -25,8 +25,8 @@ brew install yosys graphviz icarus-verilog gnu-sed dos2unix
 *This, whyever, doesn't work all the time, which is why we created a second method for installing GTKWave below*.
 
 ```sh
-brew cask install xquartz
-brew cask install gtkwave
+brew install xquartz --cask
+brew install gtkwave --cask
 ```
 
 
@@ -45,9 +45,9 @@ Download and extract the .zip file from our Moodle course.
 Now navigate to the `SystemVerilog/bin` directory and run
 ```sh
 # Using the correct line ending for Unix
-dos2unix sim.sh synth.sh
+dos2unix sim.mac synth.sh
 # Allow the shell scripts to be executed
-chmod +x sim.sh synth.sh
+chmod +x sim.mac synth.sh
 ```
 
 You completed the installation of SystemVerilog. Now you can test it.
@@ -59,7 +59,7 @@ Go to the folder `SystemVerilog/src/comb` and run
 # Testing the synthesis
 ../../bin/synth.sh example example.sv
 # Testing the simulation
-../../bin/sim.sh example_tb example.sv example_tb.sv
+../../bin/sim.mac example_tb example.sv example_tb.sv
 ```
 
 Now there should be a new file in the same folder called `example.pdf` which is the result of the synthesis, 
