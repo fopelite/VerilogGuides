@@ -8,12 +8,14 @@ check out the [installation using scoop](windows-scoop.md).
 ## Installing SystemVerilog toolchain
 
 ### Synthesis tools
-Download the latest release of the GraphViz installer for 64-bit Windows from 
+Grab the latest release of the GraphViz installer for 64-bit Windows from 
 [gitlab.com/graphviz/graphviz](https://gitlab.com/graphviz/graphviz/-/releases).
-You'll search for a file named
+Maybe you'll have to sign up for an GitLab account in order to download the file.
+You'll search for a file with the following name pattern
 ```
 stable_windows_10_cmake_Release_x64_graphviz-install-[version]-win64.exe
 ```
+
 While running the installer, it's important you select the option `Add Graphviz to the system PATH for current user` 
 otherwise you have to do it [manually](https://www.java.com/en/download/help/path.html).
 
