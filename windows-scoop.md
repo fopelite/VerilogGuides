@@ -25,11 +25,6 @@ scoop install graphviz sed iverilog yosys
 
 *sccop adds all installed packages automatically to the PATH.*
 
-After everything is installed, run `dot -c` once to configure all plugins for graphviz. 
-
-*This step may be optional in the future when a version including the pull request 
-[1581](https://gitlab.com/graphviz/graphviz/-/merge_requests/1581) has been released.*
-
 You completed the installation of SystemVerilog. Now you can test it.
 
 ## Testing your installation
